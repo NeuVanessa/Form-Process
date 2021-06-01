@@ -1,26 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import React from 'react';
+import './App.css';
+import Routes from './router';
 
 function App() {
-
   return (
-    <div className="container">
-      <form>
-        <div className="group-form">
-          <label>
-            Email:
-            <input type="email" name="email" />
-          </label>
-        </div>
-     
-  
-
-
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
-      </form>
+    <div className="App">
+      <Routes/>
     </div>
   );
 }
